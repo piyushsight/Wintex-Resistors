@@ -1,0 +1,139 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    //background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+P{text-align:justify;}
+.navbar-inverse {
+    background-color: #840000 !important;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #F5F5F5 !important;
+	font-weight: 700;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #610B0B !important;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #610B0B !important;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #610B0B;
+}
+.navbar-brand{
+    font-size: 22px !important;
+}
+.navbar {
+	min-height:30px !important;
+}
+@media (max-width: 767px){
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff !important;
+}
+}
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+}
+.page-header {
+    color: #840000 !important;
+}
+.carousel-caption {
+    padding-bottom: 15px !important;
+}
